@@ -1,0 +1,49 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.data{
+    color: darkblue;
+    text-align: center;
+    font-size: 23px;
+    margin: auto;
+    margin-top: 55px;
+}
+
+span{
+    color: gold;
+    background-color: rgb(5, 5, 65);
+    border: 2px solid black;
+}
+
+.container{
+    background-color: rgb(5, 5, 58);
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    position: absolute;
+    top: 95px;
+    left: 480px;
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 2px;
+}
+
+.item {
+    background-color: rgb(5, 5, 228);
+    height: 48px;
+    width: 48px;
+}
+
+.item:hover{
+    background-color: rgba(119, 119, 187, 0.74);
+    cursor: pointer;
+}
+
+.itemClicked{
+    background-color: gold;
+    cursor: pointer;
+}
